@@ -7,6 +7,7 @@ Date Last Modified: April 4, 2019
 <body><body style="background-color:#00FF00; color:FFFFFF;">    
 <<p>This paragraph inherits the styles applied to the body tag.</p></body></html>
 
+<p style="b...
 2.
 
 <!DOCTYPE html><html lang="en"><head><title>Embedded Styles</title><meta charset="utf-8"></head><body>
@@ -14,11 +15,16 @@ Date Last Modified: April 4, 2019
 <style>body { background-color: ##EAEAEA;       color: #EAEAEA;}</style>
 </header><p>This page uses embedded styles.</p></body></html>
 
+extra #
+wrong color
+
 3. 
 body { color: #996600;
 	font-size: 12.em;
 	font-family: Arial, Verdana, sans-serif;
 }
+
+should be 1.2em
 
 4.
 
